@@ -17,13 +17,11 @@ namespace Smart_CI_Failure_Analyzer_Test.Controllers
         {
 
             return View();
-        };;
-        public IActionResult Test()
-        {
         }
+    
         public IActionResult Privacy()
         {
-            return View();
+            return View(testdate);
         }
         
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
